@@ -1,0 +1,2214 @@
+{
+  "version": "1.4 reference \u2014 1.5 costs not yet verified",
+  "checked": "2026-10-27",
+  "recipes": [
+    {
+      "name": "Restorative Flask",
+      "category": "Flask",
+      "yield": 3,
+      "inputs": [
+        {
+          "dist": "Mycological",
+          "count": 2
+        },
+        {
+          "dist": "Fizzy",
+          "count": 2
+        },
+        {
+          "dist": "Vigorous",
+          "count": 4
+        }
+      ],
+      "description": "A throwable healing cloud."
+    },
+    {
+      "name": "Concussive Flask",
+      "category": "Flask",
+      "yield": 3,
+      "inputs": [
+        {
+          "dist": "Fizzy",
+          "count": 2
+        },
+        {
+          "dist": "Alien",
+          "count": 2
+        },
+        {
+          "dist": "Vigorous",
+          "count": 1
+        }
+      ],
+      "description": "An explosive throwable."
+    },
+    {
+      "name": "Charging Flask",
+      "category": "Flask",
+      "yield": 3,
+      "inputs": [
+        {
+          "dist": "Charged",
+          "count": 4
+        },
+        {
+          "dist": "Void",
+          "count": 2
+        },
+        {
+          "dist": "Alien",
+          "count": 1
+        }
+      ],
+      "description": "Recharges nearby battery equipment."
+    },
+    {
+      "name": "\"Holy\" Flask",
+      "category": "Flask",
+      "yield": 3,
+      "inputs": [
+        {
+          "dist": "Boiling",
+          "count": 2
+        },
+        {
+          "dist": "Fleshy",
+          "count": 2
+        },
+        {
+          "dist": "Unnerving",
+          "count": 1
+        }
+      ],
+      "description": "A flesh-burning throwable."
+    },
+    {
+      "name": "Panic Flask",
+      "category": "Flask",
+      "yield": 3,
+      "inputs": [
+        {
+          "dist": "Unnerving",
+          "count": 4
+        },
+        {
+          "dist": "Charged",
+          "count": 2
+        },
+        {
+          "dist": "Brainy",
+          "count": 1
+        }
+      ],
+      "description": "Turns enemies against one another."
+    },
+    {
+      "name": "Portal Flask",
+      "category": "Flask",
+      "yield": 3,
+      "inputs": [
+        {
+          "dist": "Alien",
+          "count": 8
+        },
+        {
+          "dist": "Void",
+          "count": 4
+        },
+        {
+          "dist": "Unstable",
+          "count": 2
+        }
+      ],
+      "description": "Summons an Anteverse creature."
+    },
+    {
+      "name": "Megaton Flask",
+      "category": "Flask",
+      "yield": 2,
+      "inputs": [
+        {
+          "dist": "Unstable",
+          "count": 4
+        },
+        {
+          "dist": "Boiling",
+          "count": 4
+        },
+        {
+          "dist": "Expanding",
+          "count": 2
+        }
+      ],
+      "description": "A powerful explosive."
+    },
+    {
+      "name": "Pheromone Flask",
+      "category": "Flask",
+      "yield": 2,
+      "inputs": [
+        {
+          "dist": "Alien",
+          "count": 6
+        },
+        {
+          "dist": "Mycological",
+          "count": 4
+        },
+        {
+          "dist": "Brainy",
+          "count": 4
+        }
+      ],
+      "description": "Pacifies creatures for taming."
+    },
+    {
+      "name": "Updraft Flask",
+      "category": "Flask",
+      "yield": 3,
+      "inputs": [
+        {
+          "dist": "Foggy",
+          "count": 1
+        },
+        {
+          "dist": "Fizzy",
+          "count": 2
+        },
+        {
+          "dist": "Void",
+          "count": 1
+        }
+      ],
+      "description": "Launches creatures upward."
+    },
+    {
+      "name": "Blizzard Flask",
+      "category": "Flask",
+      "yield": 3,
+      "inputs": [
+        {
+          "dist": "Endothermic",
+          "count": 2
+        },
+        {
+          "dist": "Occult",
+          "count": 2
+        },
+        {
+          "dist": "Fizzy",
+          "count": 4
+        }
+      ],
+      "description": "Freezes nearby enemies."
+    },
+    {
+      "name": "Corrosive Flask",
+      "category": "Flask",
+      "yield": 3,
+      "inputs": [
+        {
+          "dist": "Unstable",
+          "count": 2
+        },
+        {
+          "dist": "Boiling",
+          "count": 2
+        },
+        {
+          "dist": "Fizzy",
+          "count": 4
+        }
+      ],
+      "description": "Weakens enemy armor."
+    },
+    {
+      "name": "Electrifying Tincture",
+      "category": "Tincture",
+      "yield": 3,
+      "inputs": [
+        {
+          "dist": "Vigorous",
+          "count": 4
+        },
+        {
+          "dist": "Charged",
+          "count": 4
+        },
+        {
+          "dist": "Boiling",
+          "count": 2
+        }
+      ],
+      "description": "Electric retaliation when hit."
+    },
+    {
+      "name": "Reinforcing Tincture",
+      "category": "Tincture",
+      "yield": 3,
+      "inputs": [
+        {
+          "dist": "Vigorous",
+          "count": 4
+        },
+        {
+          "dist": "Fleshy",
+          "count": 3
+        },
+        {
+          "dist": "Void",
+          "count": 3
+        }
+      ],
+      "description": "Temporarily boosts armor."
+    },
+    {
+      "name": "Berserker Tincture",
+      "category": "Tincture",
+      "yield": 1,
+      "inputs": [
+        {
+          "dist": "Vigorous",
+          "count": 4
+        },
+        {
+          "dist": "Occult",
+          "count": 2
+        },
+        {
+          "dist": "Alien",
+          "count": 4
+        }
+      ],
+      "description": "Grants the Berserk effect."
+    },
+    {
+      "name": "Antiheat Tincture",
+      "category": "Tincture",
+      "yield": 3,
+      "inputs": [
+        {
+          "dist": "Vigorous",
+          "count": 4
+        },
+        {
+          "dist": "Endothermic",
+          "count": 4
+        },
+        {
+          "dist": "Boiling",
+          "count": 4
+        }
+      ],
+      "description": "Protects against fire."
+    },
+    {
+      "name": "Curative Tincture",
+      "category": "Tincture",
+      "yield": 1,
+      "inputs": [
+        {
+          "dist": "Vigorous",
+          "count": 4
+        },
+        {
+          "dist": "Mycological",
+          "count": 4
+        },
+        {
+          "dist": "Void",
+          "count": 4
+        }
+      ],
+      "description": "Treats minor ailments."
+    },
+    {
+      "name": "Giganto Tincture",
+      "category": "Tincture",
+      "yield": 2,
+      "inputs": [
+        {
+          "dist": "Vigorous",
+          "count": 2
+        },
+        {
+          "dist": "Expanding",
+          "count": 2
+        },
+        {
+          "dist": "Alien",
+          "count": 2
+        }
+      ],
+      "description": "Enlarges the drinker."
+    },
+    {
+      "name": "Speedy Tincture",
+      "category": "Tincture",
+      "yield": 3,
+      "inputs": [
+        {
+          "dist": "Vigorous",
+          "count": 2
+        },
+        {
+          "dist": "Fizzy",
+          "count": 2
+        },
+        {
+          "dist": "Void",
+          "count": 1
+        }
+      ],
+      "description": "Boosts movement speed."
+    },
+    {
+      "name": "Restorative Tincture",
+      "category": "Tincture",
+      "yield": 1,
+      "inputs": [
+        {
+          "dist": "Vigorous",
+          "count": 2
+        },
+        {
+          "dist": "Void",
+          "count": 1
+        },
+        {
+          "dist": "Alien",
+          "count": 2
+        }
+      ],
+      "description": "Regenerates health."
+    },
+    {
+      "name": "Phasing Tincture",
+      "category": "Tincture",
+      "yield": 2,
+      "inputs": [
+        {
+          "dist": "Alien",
+          "count": 2
+        },
+        {
+          "dist": "Foggy",
+          "count": 2
+        },
+        {
+          "dist": "Vigorous",
+          "count": 2
+        }
+      ],
+      "description": "Lets some attacks pass through."
+    },
+    {
+      "name": "Brainpower Tincture",
+      "category": "Tincture",
+      "yield": 1,
+      "inputs": [
+        {
+          "dist": "Brainy",
+          "count": 2
+        },
+        {
+          "dist": "Alien",
+          "count": 2
+        },
+        {
+          "dist": "Vigorous",
+          "count": 1
+        }
+      ],
+      "description": "Boosts experience gain."
+    },
+    {
+      "name": "\"Holy\" Coating",
+      "category": "Coating",
+      "yield": 1,
+      "inputs": [
+        {
+          "dist": "Fleshy",
+          "count": 6
+        },
+        {
+          "dist": "Charged",
+          "count": 6
+        },
+        {
+          "dist": "Unnerving",
+          "count": 4
+        }
+      ],
+      "description": "Adds holy fire."
+    },
+    {
+      "name": "Reforge Coating",
+      "category": "Coating",
+      "yield": 1,
+      "inputs": [
+        {
+          "dist": "Fleshy",
+          "count": 6
+        },
+        {
+          "dist": "Mycological",
+          "count": 6
+        },
+        {
+          "dist": "Vigorous",
+          "count": 6
+        }
+      ],
+      "description": "Repairs the held weapon over time."
+    },
+    {
+      "name": "Electromagnetic Coating",
+      "category": "Coating",
+      "yield": 1,
+      "inputs": [
+        {
+          "dist": "Charged",
+          "count": 8
+        },
+        {
+          "dist": "Fizzy",
+          "count": 4
+        },
+        {
+          "dist": "Void",
+          "count": 4
+        }
+      ],
+      "description": "Adds electricity and battery charging."
+    },
+    {
+      "name": "Thermal Coating",
+      "category": "Coating",
+      "yield": 1,
+      "inputs": [
+        {
+          "dist": "Boiling",
+          "count": 6
+        },
+        {
+          "dist": "Vigorous",
+          "count": 4
+        },
+        {
+          "dist": "Alien",
+          "count": 4
+        }
+      ],
+      "description": "Adds heat and fire damage."
+    },
+    {
+      "name": "Bounce Coating",
+      "category": "Coating",
+      "yield": 1,
+      "inputs": [
+        {
+          "dist": "Mycological",
+          "count": 8
+        },
+        {
+          "dist": "Fizzy",
+          "count": 8
+        },
+        {
+          "dist": "Foggy",
+          "count": 4
+        }
+      ],
+      "description": "Adds melee knockback."
+    },
+    {
+      "name": "Somnivorous Coating",
+      "category": "Coating",
+      "yield": 1,
+      "inputs": [
+        {
+          "dist": "Brainy",
+          "count": 6
+        },
+        {
+          "dist": "Unnerving",
+          "count": 6
+        },
+        {
+          "dist": "Foggy",
+          "count": 6
+        }
+      ],
+      "description": "Restores health through attacks."
+    },
+    {
+      "name": "Acid Coating",
+      "category": "Coating",
+      "yield": 1,
+      "inputs": [
+        {
+          "dist": "Unstable",
+          "count": 6
+        },
+        {
+          "dist": "Boiling",
+          "count": 6
+        },
+        {
+          "dist": "Alien",
+          "count": 6
+        }
+      ],
+      "description": "Adds acid damage."
+    },
+    {
+      "name": "Disruptor Coating",
+      "category": "Coating",
+      "yield": 1,
+      "inputs": [
+        {
+          "dist": "Occult",
+          "count": 8
+        },
+        {
+          "dist": "Charged",
+          "count": 8
+        },
+        {
+          "dist": "Boiling",
+          "count": 8
+        }
+      ],
+      "description": "Counters hardlight defenses."
+    },
+    {
+      "name": "Quantum Coating",
+      "category": "Coating",
+      "yield": 1,
+      "inputs": [
+        {
+          "dist": "Occult",
+          "count": 6
+        },
+        {
+          "dist": "Endothermic",
+          "count": 6
+        },
+        {
+          "dist": "Void",
+          "count": 6
+        }
+      ],
+      "description": "Can conserve ammo or energy."
+    },
+    {
+      "name": "Foggy Coating",
+      "category": "Coating",
+      "yield": 1,
+      "inputs": [
+        {
+          "dist": "Foggy",
+          "count": 8
+        },
+        {
+          "dist": "Vigorous",
+          "count": 4
+        },
+        {
+          "dist": "Void",
+          "count": 2
+        }
+      ],
+      "description": "Bypasses enemy resistances."
+    },
+    {
+      "name": "Unstable Flask",
+      "category": "Flask",
+      "yield": 1,
+      "inputs": [
+        {
+          "dist": "Noxious Sludge",
+          "count": 1
+        },
+        {
+          "dist": "Vigorous",
+          "count": 1
+        },
+        {
+          "dist": "Alien",
+          "count": 1
+        }
+      ],
+      "special": true,
+      "description": "Failed concoction with unpredictable effects. This calculator uses the sludge route: 1 Noxious Sludge plus 1 each of two chosen distillations. Other invalid mixtures can also produce this flask."
+    }
+  ],
+  "distillations": {
+    "Alien": {
+      "name": "Alien Distillation",
+      "sources": [
+        {
+          "item": "Anti-Fungal Gelatin",
+          "yield": 32
+        },
+        {
+          "item": "Peccary Alpha Skull",
+          "yield": 8
+        },
+        {
+          "item": "Vibrant Exor Arm",
+          "yield": 8
+        },
+        {
+          "item": "Raw Exor Heart",
+          "yield": 5
+        },
+        {
+          "item": "Exor Arm",
+          "yield": 4
+        },
+        {
+          "item": "Exor Skull",
+          "yield": 3
+        },
+        {
+          "item": "Super Tomato",
+          "yield": 3
+        },
+        {
+          "item": "Xanterium Rice",
+          "yield": 3
+        },
+        {
+          "item": "Antejuice Sac",
+          "yield": 2
+        },
+        {
+          "item": "Green Fish Liver",
+          "yield": 2
+        },
+        {
+          "item": "Peccary Skull",
+          "yield": 2
+        },
+        {
+          "item": "Raw Alien Drumstick",
+          "yield": 2
+        },
+        {
+          "item": "Raw Antefish Filet",
+          "yield": 2
+        },
+        {
+          "item": "Raw Carbuncle",
+          "yield": 2
+        },
+        {
+          "item": "Raw Peccary Chop",
+          "yield": 2
+        },
+        {
+          "item": "Raw Portal Fish Filet",
+          "yield": 2
+        },
+        {
+          "item": "Raw Radfish Filet",
+          "yield": 2
+        },
+        {
+          "item": "Raw Stuffed Roast Peccary",
+          "yield": 2
+        },
+        {
+          "item": "Sow Skull",
+          "yield": 2
+        },
+        {
+          "item": "Anteverse Cheese",
+          "yield": 1
+        },
+        {
+          "item": "Raw Pest",
+          "yield": 1
+        },
+        {
+          "item": "Raw Pest Rump",
+          "yield": 1
+        }
+      ]
+    },
+    "Fizzy": {
+      "name": "Fizzy Distillation",
+      "sources": [
+        {
+          "item": "Gem Sugar",
+          "yield": 8
+        },
+        {
+          "item": "Gusto Goo",
+          "yield": 8
+        },
+        {
+          "item": "Sugar Crystal",
+          "yield": 8
+        },
+        {
+          "item": "Candy Cane",
+          "yield": 4
+        },
+        {
+          "item": "Raw Moon Fish Filet",
+          "yield": 4
+        },
+        {
+          "item": "Doznuts",
+          "yield": 3
+        },
+        {
+          "item": "Ice Cream",
+          "yield": 3
+        },
+        {
+          "item": "Jowlers",
+          "yield": 3
+        },
+        {
+          "item": "Melted Ice Cream",
+          "yield": 3
+        },
+        {
+          "item": "Skip",
+          "yield": 3
+        },
+        {
+          "item": "Fizz Bang",
+          "yield": 2
+        },
+        {
+          "item": "Pop Snarkle",
+          "yield": 2
+        },
+        {
+          "item": "Popsci",
+          "yield": 2
+        },
+        {
+          "item": "Rootbear",
+          "yield": 2
+        },
+        {
+          "item": "Shrimp Soda",
+          "yield": 2
+        },
+        {
+          "item": "Slam",
+          "yield": 2
+        },
+        {
+          "item": "Slushie",
+          "yield": 2
+        },
+        {
+          "item": "Vit",
+          "yield": 2
+        },
+        {
+          "item": "XETA NRG",
+          "yield": 2
+        },
+        {
+          "item": "Farm Puffs",
+          "yield": 1
+        },
+        {
+          "item": "Saltz",
+          "yield": 1
+        }
+      ]
+    },
+    "Vigorous": {
+      "name": "Vigorous Distillation",
+      "sources": [
+        {
+          "item": "Pumpkin",
+          "yield": 12
+        },
+        {
+          "item": "\"Carrot\"",
+          "yield": 4
+        },
+        {
+          "item": "Apple",
+          "yield": 4
+        },
+        {
+          "item": "\"Egg\"",
+          "yield": 3
+        },
+        {
+          "item": "Honey",
+          "yield": 3
+        },
+        {
+          "item": "Potato",
+          "yield": 3
+        },
+        {
+          "item": "Purified Corn",
+          "yield": 3
+        },
+        {
+          "item": "Space Lettuce",
+          "yield": 3
+        },
+        {
+          "item": "Tomato",
+          "yield": 3
+        },
+        {
+          "item": "Anomaly",
+          "yield": 2
+        },
+        {
+          "item": "Anteverse Wheat",
+          "yield": 2
+        },
+        {
+          "item": "Human Arm (Military)",
+          "yield": 2
+        },
+        {
+          "item": "Raw Larva Meat",
+          "yield": 2
+        },
+        {
+          "item": "Bag of Feces",
+          "yield": 1
+        },
+        {
+          "item": "Beeswax",
+          "yield": 1
+        },
+        {
+          "item": "Bio Scrap",
+          "yield": 1
+        },
+        {
+          "item": "Taco",
+          "yield": 1
+        }
+      ]
+    },
+    "Noxious Sludge": {
+      "name": "Noxious Sludge",
+      "sources": [
+        {
+          "item": "Bleach",
+          "yield": 1
+        },
+        {
+          "item": "Carapace",
+          "yield": 1
+        },
+        {
+          "item": "Desk Phone",
+          "yield": 1
+        },
+        {
+          "item": "Enethiol",
+          "yield": 1
+        },
+        {
+          "item": "Giga Glue",
+          "yield": 1
+        },
+        {
+          "item": "Glass Scrap",
+          "yield": 1
+        },
+        {
+          "item": "Gunpowder",
+          "yield": 1
+        },
+        {
+          "item": "Hydrochloric Acid",
+          "yield": 1
+        },
+        {
+          "item": "Keyboard",
+          "yield": 1
+        },
+        {
+          "item": "Leather Scrap",
+          "yield": 1
+        },
+        {
+          "item": "Leyak Essence",
+          "yield": 1
+        },
+        {
+          "item": "Plastic Scrap",
+          "yield": 1
+        },
+        {
+          "item": "Refined Carbon",
+          "yield": 1
+        },
+        {
+          "item": "Silver Scrap",
+          "yield": 1
+        },
+        {
+          "item": "Tech Scrap",
+          "yield": 1
+        },
+        {
+          "item": "The Bad Soda",
+          "yield": 1
+        }
+      ]
+    },
+    "Charged": {
+      "name": "Charged Distillation",
+      "sources": [
+        {
+          "item": "Transcendium",
+          "yield": 8
+        },
+        {
+          "item": "Capacitor",
+          "yield": 6
+        },
+        {
+          "item": "Corrupted Lamogi Data",
+          "yield": 6
+        },
+        {
+          "item": "Electrical Organ",
+          "yield": 6
+        },
+        {
+          "item": "Black Gunk",
+          "yield": 4
+        },
+        {
+          "item": "Reservoir Growth",
+          "yield": 4
+        },
+        {
+          "item": "Kizz Cola",
+          "yield": 3
+        },
+        {
+          "item": "Liquid Crystal",
+          "yield": 3
+        },
+        {
+          "item": "Eel Fat",
+          "yield": 2
+        },
+        {
+          "item": "Raw Frigid Queenfish Filet",
+          "yield": 2
+        },
+        {
+          "item": "Raw Gutfish Eel Filet",
+          "yield": 2
+        }
+      ]
+    },
+    "Occult": {
+      "name": "Occult Distillation",
+      "sources": [
+        {
+          "item": "Purported Grimoire",
+          "yield": 5
+        },
+        {
+          "item": "Chieftain Skull",
+          "yield": 3
+        },
+        {
+          "item": "Embellished Censer",
+          "yield": 3
+        },
+        {
+          "item": "Flickering Eye",
+          "yield": 3
+        },
+        {
+          "item": "Head of a Giant",
+          "yield": 3
+        },
+        {
+          "item": "Mystagogue's Head",
+          "yield": 3
+        },
+        {
+          "item": "Witch Skull",
+          "yield": 3
+        },
+        {
+          "item": "Arcane Scrap",
+          "yield": 2
+        },
+        {
+          "item": "Raw Penumbra Filet",
+          "yield": 2
+        },
+        {
+          "item": "Shadowberries",
+          "yield": 2
+        }
+      ]
+    },
+    "Unnerving": {
+      "name": "Unnerving Distillation",
+      "sources": [
+        {
+          "item": "Night Essence",
+          "yield": 12
+        },
+        {
+          "item": "Keresphere",
+          "yield": 4
+        },
+        {
+          "item": "Black Oil",
+          "yield": 2
+        },
+        {
+          "item": "Corrupted Corn",
+          "yield": 2
+        },
+        {
+          "item": "Hexwood",
+          "yield": 2
+        },
+        {
+          "item": "Raw Inkfish Filet",
+          "yield": 2
+        }
+      ]
+    },
+    "Expanding": {
+      "name": "Expanding Distillation",
+      "sources": [
+        {
+          "item": "Behemoth Skull",
+          "yield": 24
+        },
+        {
+          "item": "Tarasque Ichor",
+          "yield": 12
+        },
+        {
+          "item": "Tarasque Skull",
+          "yield": 8
+        },
+        {
+          "item": "Glow Eye",
+          "yield": 2
+        },
+        {
+          "item": "Raw Darkwater Fish Filet",
+          "yield": 2
+        }
+      ]
+    },
+    "Foggy": {
+      "name": "Foggy Distillation",
+      "sources": [
+        {
+          "item": "Organ",
+          "yield": 12
+        },
+        {
+          "item": "Symphonist Head",
+          "yield": 4
+        },
+        {
+          "item": "Partial Organ",
+          "yield": 3
+        },
+        {
+          "item": "Porcelain Shards",
+          "yield": 2
+        },
+        {
+          "item": "Raw Chordfish Filet",
+          "yield": 2
+        }
+      ]
+    },
+    "Unstable": {
+      "name": "Unstable Distillation",
+      "sources": [
+        {
+          "item": "Plutonic Blood",
+          "yield": 4
+        },
+        {
+          "item": "Volatile Exor Skull",
+          "yield": 3
+        },
+        {
+          "item": "Plutonic Carapace",
+          "yield": 2
+        },
+        {
+          "item": "Raw Silken Betta Filet",
+          "yield": 2
+        },
+        {
+          "item": "Raw Skink Meat",
+          "yield": 2
+        }
+      ]
+    },
+    "Void": {
+      "name": "Void Distillation",
+      "sources": [
+        {
+          "item": "Powdered Crystal",
+          "yield": 4
+        },
+        {
+          "item": "Anteverse Gem",
+          "yield": 3
+        },
+        {
+          "item": "Bag of Vibrant Feces",
+          "yield": 3
+        },
+        {
+          "item": "Gem Crab",
+          "yield": 3
+        }
+      ]
+    },
+    "Fleshy": {
+      "name": "Fleshy Distillation",
+      "sources": [
+        {
+          "item": "Lodestone Fragment",
+          "yield": 6
+        },
+        {
+          "item": "Greyeb",
+          "yield": 2
+        },
+        {
+          "item": "Raw IS-0098 Tentacles",
+          "yield": 1
+        },
+        {
+          "item": "STOLAS Hard Drive",
+          "yield": 1
+        }
+      ]
+    },
+    "Boiling": {
+      "name": "Boiling Distillation",
+      "sources": [
+        {
+          "item": "Royal Pepper",
+          "yield": 4
+        },
+        {
+          "item": "Anteverse Gel",
+          "yield": 3
+        },
+        {
+          "item": "Corrupted Pepper",
+          "yield": 1
+        }
+      ]
+    },
+    "Brainy": {
+      "name": "Brainy Distillation",
+      "sources": [
+        {
+          "item": "Yeti Skull",
+          "yield": 12
+        },
+        {
+          "item": "Human Brain",
+          "yield": 4
+        },
+        {
+          "item": "Sniper Skull",
+          "yield": 4
+        }
+      ]
+    },
+    "Mycological": {
+      "name": "Mycological Distillation",
+      "sources": [
+        {
+          "item": "Mushroom Peccary Skull",
+          "yield": 8
+        },
+        {
+          "item": "Carbuncle Mushroom",
+          "yield": 4
+        }
+      ]
+    },
+    "Endothermic": {
+      "name": "Endothermic Distillation",
+      "sources": [
+        {
+          "item": "Frozen Essence",
+          "yield": 12
+        },
+        {
+          "item": "Snow Peccary Skull",
+          "yield": 2
+        }
+      ]
+    },
+    "Vial of Milk": {
+      "name": "Vial of Milk",
+      "sources": [
+        {
+          "item": "Milk Sac",
+          "yield": 1
+        }
+      ]
+    }
+  },
+  "items": {
+    "Alien Distillation": {
+      "url": "https://www.abioticdatabase.com/items/alien-distillation/",
+      "icon": "icons/alien-distillation.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_distillation_alien.webp"
+    },
+    "Anti-Fungal Gelatin": {
+      "url": "https://www.abioticdatabase.com/items/anti-fungal-gelatin/",
+      "icon": "icons/anti-fungal-gelatin.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_goo_exor.webp"
+    },
+    "Peccary Alpha Skull": {
+      "url": "https://www.abioticdatabase.com/items/peccary-alpha-skull/",
+      "icon": "icons/peccary-alpha-skull.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_gib_peccary_skull_red.webp"
+    },
+    "Vibrant Exor Arm": {
+      "url": "https://www.abioticdatabase.com/items/vibrant-exor-arm/",
+      "icon": "icons/vibrant-exor-arm.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_vibrantexorarm.webp"
+    },
+    "Raw Exor Heart": {
+      "url": "https://www.abioticdatabase.com/items/raw-exor-heart/",
+      "icon": "icons/raw-exor-heart.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_exor_heart.webp"
+    },
+    "Exor Arm": {
+      "url": "https://www.abioticdatabase.com/items/exor-arm/",
+      "icon": "icons/exor-arm.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_gib_exor_arm.webp"
+    },
+    "Exor Skull": {
+      "url": "https://www.abioticdatabase.com/items/exor-skull/",
+      "icon": "icons/exor-skull.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_exor_skull.webp"
+    },
+    "Super Tomato": {
+      "url": "https://www.abioticdatabase.com/items/super-tomato/",
+      "icon": "icons/super-tomato.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_tomato_super1.webp"
+    },
+    "Xanterium Rice": {
+      "url": "https://www.abioticdatabase.com/items/xanterium-rice/",
+      "icon": "icons/xanterium-rice.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_ricebag.webp"
+    },
+    "Antejuice Sac": {
+      "url": "https://www.abioticdatabase.com/items/antejuice-sac/",
+      "icon": "icons/antejuice-sac.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_food_juicesac.webp"
+    },
+    "Green Fish Liver": {
+      "url": "https://www.abioticdatabase.com/items/green-fish-liver/",
+      "icon": "icons/green-fish-liver.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_fishliver.webp"
+    },
+    "Peccary Skull": {
+      "url": "https://www.abioticdatabase.com/items/peccary-skull/",
+      "icon": "icons/peccary-skull.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_gib_peccary_skull.webp"
+    },
+    "Raw Alien Drumstick": {
+      "url": "https://www.abioticdatabase.com/items/raw-alien-drumstick/",
+      "icon": "icons/raw-alien-drumstick.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_gib_peccary_leg.webp"
+    },
+    "Raw Antefish Filet": {
+      "url": "https://www.abioticdatabase.com/items/raw-antefish-filet/",
+      "icon": "icons/raw-antefish-filet.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_filet_antefish_raw.webp"
+    },
+    "Raw Carbuncle": {
+      "url": "https://www.abioticdatabase.com/items/raw-carbuncle/",
+      "icon": "icons/raw-carbuncle.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_carbuncle_embryo.webp"
+    },
+    "Raw Peccary Chop": {
+      "url": "https://www.abioticdatabase.com/items/raw-peccary-chop/",
+      "icon": "icons/raw-peccary-chop.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_gib_peccary_chop.webp"
+    },
+    "Raw Portal Fish Filet": {
+      "url": "https://www.abioticdatabase.com/items/raw-portal-fish-filet/",
+      "icon": "icons/raw-portal-fish-filet.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_filet_portalfish_raw.webp"
+    },
+    "Raw Radfish Filet": {
+      "url": "https://www.abioticdatabase.com/items/raw-radfish-filet/",
+      "icon": "icons/raw-radfish-filet.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_filet_radfish_raw.webp"
+    },
+    "Raw Stuffed Roast Peccary": {
+      "url": "https://www.abioticdatabase.com/items/raw-stuffed-roast-peccary/",
+      "icon": "icons/raw-stuffed-roast-peccary.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_roast_raw_02.webp"
+    },
+    "Sow Skull": {
+      "url": "https://www.abioticdatabase.com/items/sow-skull/",
+      "icon": "icons/sow-skull.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_gib_peccary_skull_sow_2.webp"
+    },
+    "Anteverse Cheese": {
+      "url": "https://www.abioticdatabase.com/items/anteverse-cheese/",
+      "icon": "icons/anteverse-cheese.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_food_anteverse_cheese.webp"
+    },
+    "Raw Pest": {
+      "url": "https://www.abioticdatabase.com/items/raw-pest/",
+      "icon": "icons/raw-pest.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_gib_hopper_head.webp"
+    },
+    "Raw Pest Rump": {
+      "url": "https://www.abioticdatabase.com/items/raw-pest-rump/",
+      "icon": "icons/raw-pest-rump.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_gib_hopper_tail.webp"
+    },
+    "Fizzy Distillation": {
+      "url": "https://www.abioticdatabase.com/items/fizzy-distillation/",
+      "icon": "icons/fizzy-distillation.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_distillation_fizzy_new.webp"
+    },
+    "Gem Sugar": {
+      "url": "https://www.abioticdatabase.com/items/gem-sugar/",
+      "icon": "icons/gem-sugar.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_food_sugar.webp"
+    },
+    "Gusto Goo": {
+      "url": "https://www.abioticdatabase.com/items/gusto-goo/",
+      "icon": "icons/gusto-goo.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_soda_energy_1.webp"
+    },
+    "Sugar Crystal": {
+      "url": "https://www.abioticdatabase.com/items/sugar-crystal/",
+      "icon": "icons/sugar-crystal.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_sugarcrystal.webp"
+    },
+    "Candy Cane": {
+      "url": "https://www.abioticdatabase.com/items/candy-cane/",
+      "icon": "icons/candy-cane.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_food_candycane.webp"
+    },
+    "Raw Moon Fish Filet": {
+      "url": "https://www.abioticdatabase.com/items/raw-moon-fish-filet/",
+      "icon": "icons/raw-moon-fish-filet.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_filet_moonfish_raw.webp"
+    },
+    "Doznuts": {
+      "url": "https://www.abioticdatabase.com/items/doznuts/",
+      "icon": "icons/doznuts.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_donut.webp"
+    },
+    "Ice Cream": {
+      "url": "https://www.abioticdatabase.com/items/ice-cream/",
+      "icon": "icons/ice-cream.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_icecream_vanilla.webp"
+    },
+    "Jowlers": {
+      "url": "https://www.abioticdatabase.com/items/jowlers/",
+      "icon": "icons/jowlers.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_food_candy.webp"
+    },
+    "Melted Ice Cream": {
+      "url": "https://www.abioticdatabase.com/items/melted-ice-cream/",
+      "icon": "icons/melted-ice-cream.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_icecream_vanilla_melted.webp"
+    },
+    "Skip": {
+      "url": "https://www.abioticdatabase.com/items/skip/",
+      "icon": "icons/skip.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_food_cookie.webp"
+    },
+    "Fizz Bang": {
+      "url": "https://www.abioticdatabase.com/items/fizz-bang/",
+      "icon": "icons/fizz-bang.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_soda_fizzbang.webp"
+    },
+    "Pop Snarkle": {
+      "url": "https://www.abioticdatabase.com/items/pop-snarkle/",
+      "icon": "icons/pop-snarkle.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_soda_popsnarkle.webp"
+    },
+    "Popsci": {
+      "url": "https://www.abioticdatabase.com/items/popsci/",
+      "icon": "icons/popsci.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_votv_soda_04.webp"
+    },
+    "Rootbear": {
+      "url": "https://www.abioticdatabase.com/items/rootbear/",
+      "icon": "icons/rootbear.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_soda_rootbear.webp"
+    },
+    "Shrimp Soda": {
+      "url": "https://www.abioticdatabase.com/items/shrimp-soda/",
+      "icon": "icons/shrimp-soda.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_votv_soda_05.webp"
+    },
+    "Slam": {
+      "url": "https://www.abioticdatabase.com/items/slam/",
+      "icon": "icons/slam.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_soda_slamberry.webp"
+    },
+    "Slushie": {
+      "url": "https://www.abioticdatabase.com/items/slushie/",
+      "icon": "icons/slushie.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_slushie.webp"
+    },
+    "Vit": {
+      "url": "https://www.abioticdatabase.com/items/vit/",
+      "icon": "icons/vit.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_soda_vit.webp"
+    },
+    "XETA NRG": {
+      "url": "https://www.abioticdatabase.com/items/xeta-nrg/",
+      "icon": "icons/xeta-nrg.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_votv_soda_07.webp"
+    },
+    "Farm Puffs": {
+      "url": "https://www.abioticdatabase.com/items/farm-puffs/",
+      "icon": "icons/farm-puffs.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_cheesepuffs.webp"
+    },
+    "Saltz": {
+      "url": "https://www.abioticdatabase.com/items/saltz/",
+      "icon": "icons/saltz.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_food_chips.webp"
+    },
+    "Vigorous Distillation": {
+      "url": "https://www.abioticdatabase.com/items/vigorous-distillation/",
+      "icon": "icons/vigorous-distillation.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_distillation_vigorous.webp"
+    },
+    "Pumpkin": {
+      "url": "https://www.abioticdatabase.com/items/pumpkin/",
+      "icon": "icons/pumpkin.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_pumpkin.webp"
+    },
+    "\"Carrot\"": {
+      "url": "https://www.abioticdatabase.com/items/carrot/",
+      "icon": "icons/carrot.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_xmas_snowman_carrot.webp"
+    },
+    "Apple": {
+      "url": "https://www.abioticdatabase.com/items/apple/",
+      "icon": "icons/apple.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_apple.webp"
+    },
+    "\"Egg\"": {
+      "url": "https://www.abioticdatabase.com/items/egg/",
+      "icon": "icons/egg.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_eggplant.webp"
+    },
+    "Honey": {
+      "url": "https://www.abioticdatabase.com/items/honey/",
+      "icon": "icons/honey.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_honey02.webp"
+    },
+    "Potato": {
+      "url": "https://www.abioticdatabase.com/items/potato/",
+      "icon": "icons/potato.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_potato.webp"
+    },
+    "Purified Corn": {
+      "url": "https://www.abioticdatabase.com/items/purified-corn/",
+      "icon": "icons/purified-corn.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_food_corn.webp"
+    },
+    "Space Lettuce": {
+      "url": "https://www.abioticdatabase.com/items/space-lettuce/",
+      "icon": "icons/space-lettuce.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_spacelettuce_food.webp"
+    },
+    "Tomato": {
+      "url": "https://www.abioticdatabase.com/items/tomato/",
+      "icon": "icons/tomato.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_tomato.webp"
+    },
+    "Anomaly": {
+      "url": "https://www.abioticdatabase.com/items/anomaly/",
+      "icon": "icons/anomaly.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_anomaly.webp"
+    },
+    "Anteverse Wheat": {
+      "url": "https://www.abioticdatabase.com/items/anteverse-wheat/",
+      "icon": "icons/anteverse-wheat.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_alienwheat.webp"
+    },
+    "Human Arm (Military)": {
+      "url": "https://www.abioticdatabase.com/items/human-arm-military/",
+      "icon": "icons/human-arm-military.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_gib_human_arm_mil_01.webp"
+    },
+    "Raw Larva Meat": {
+      "url": "https://www.abioticdatabase.com/items/raw-larva-meat/",
+      "icon": "icons/raw-larva-meat.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_mgt_gib_meat_larva.webp"
+    },
+    "Bag of Feces": {
+      "url": "https://www.abioticdatabase.com/items/bag-of-feces/",
+      "icon": "icons/bag-of-feces.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_baggedpoop.webp"
+    },
+    "Beeswax": {
+      "url": "https://www.abioticdatabase.com/items/beeswax/",
+      "icon": "icons/beeswax.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_beeswax.webp"
+    },
+    "Bio Scrap": {
+      "url": "https://www.abioticdatabase.com/items/bio-scrap/",
+      "icon": "icons/bio-scrap.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_scrap_bio.webp"
+    },
+    "Taco": {
+      "url": "https://www.abioticdatabase.com/items/taco/",
+      "icon": "icons/taco.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_food_taco.webp"
+    },
+    "Noxious Sludge": {
+      "url": "https://www.abioticdatabase.com/items/noxious-sludge/",
+      "icon": "icons/noxious-sludge.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_distillation_sludge.webp"
+    },
+    "Bleach": {
+      "url": "https://www.abioticdatabase.com/items/bleach/",
+      "icon": "icons/bleach.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_bleach1.webp"
+    },
+    "Carapace": {
+      "url": "https://www.abioticdatabase.com/items/carapace/",
+      "icon": "icons/carapace.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_carapace.webp"
+    },
+    "Desk Phone": {
+      "url": "https://www.abioticdatabase.com/items/desk-phone/",
+      "icon": "icons/desk-phone.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_telephone.webp"
+    },
+    "Enethiol": {
+      "url": "https://www.abioticdatabase.com/items/enethiol/",
+      "icon": "icons/enethiol.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_enethiol.webp"
+    },
+    "Giga Glue": {
+      "url": "https://www.abioticdatabase.com/items/giga-glue/",
+      "icon": "icons/giga-glue.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_gigaglue.webp"
+    },
+    "Glass Scrap": {
+      "url": "https://www.abioticdatabase.com/items/glass-scrap/",
+      "icon": "icons/glass-scrap.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_scrap_glass.webp"
+    },
+    "Gunpowder": {
+      "url": "https://www.abioticdatabase.com/items/gunpowder/",
+      "icon": "icons/gunpowder.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_gunpowder.webp"
+    },
+    "Hydrochloric Acid": {
+      "url": "https://www.abioticdatabase.com/items/hydrochloric-acid/",
+      "icon": "icons/hydrochloric-acid.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_acid.webp"
+    },
+    "Keyboard": {
+      "url": "https://www.abioticdatabase.com/items/keyboard/",
+      "icon": "icons/keyboard.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_keyboard.webp"
+    },
+    "Leather Scrap": {
+      "url": "https://www.abioticdatabase.com/items/leather-scrap/",
+      "icon": "icons/leather-scrap.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_scrap_leather.webp"
+    },
+    "Leyak Essence": {
+      "url": "https://www.abioticdatabase.com/items/leyak-essence/",
+      "icon": "icons/leyak-essence.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_nightmare_essence.webp"
+    },
+    "Plastic Scrap": {
+      "url": "https://www.abioticdatabase.com/items/plastic-scrap/",
+      "icon": "icons/plastic-scrap.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_scrap_plastic.webp"
+    },
+    "Refined Carbon": {
+      "url": "https://www.abioticdatabase.com/items/refined-carbon/",
+      "icon": "icons/refined-carbon.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_refinedcarbon.webp"
+    },
+    "Silver Scrap": {
+      "url": "https://www.abioticdatabase.com/items/silver-scrap/",
+      "icon": "icons/silver-scrap.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_scrap_silver.webp"
+    },
+    "Tech Scrap": {
+      "url": "https://www.abioticdatabase.com/items/tech-scrap/",
+      "icon": "icons/tech-scrap.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_scrap_tech.webp"
+    },
+    "The Bad Soda": {
+      "url": "https://www.abioticdatabase.com/items/the-bad-soda/",
+      "icon": "icons/the-bad-soda.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_soda_bad.webp"
+    },
+    "Charged Distillation": {
+      "url": "https://www.abioticdatabase.com/items/charged-distillation/",
+      "icon": "icons/charged-distillation.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_distillation_charged.webp"
+    },
+    "Transcendium": {
+      "url": "https://www.abioticdatabase.com/items/transcendium/",
+      "icon": "icons/transcendium.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_transcendium.webp"
+    },
+    "Capacitor": {
+      "url": "https://www.abioticdatabase.com/items/capacitor/",
+      "icon": "icons/capacitor.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_capacitor.webp"
+    },
+    "Corrupted Lamogi Data": {
+      "url": "https://www.abioticdatabase.com/items/corrupted-lamogi-data/",
+      "icon": "icons/corrupted-lamogi-data.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_lamogi_corrupted.webp"
+    },
+    "Electrical Organ": {
+      "url": "https://www.abioticdatabase.com/items/electrical-organ/",
+      "icon": "icons/electrical-organ.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_eel_organ.webp"
+    },
+    "Black Gunk": {
+      "url": "https://www.abioticdatabase.com/items/black-gunk/",
+      "icon": "icons/black-gunk.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_scrap_gunk.webp"
+    },
+    "Reservoir Growth": {
+      "url": "https://www.abioticdatabase.com/items/reservoir-growth/",
+      "icon": "icons/reservoir-growth.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_is-0142.webp"
+    },
+    "Kizz Cola": {
+      "url": "https://www.abioticdatabase.com/items/kizz-cola/",
+      "icon": "icons/kizz-cola.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_drink_kizz.webp"
+    },
+    "Liquid Crystal": {
+      "url": "https://www.abioticdatabase.com/items/liquid-crystal/",
+      "icon": "icons/liquid-crystal.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_liquidcrystal.webp"
+    },
+    "Eel Fat": {
+      "url": "https://www.abioticdatabase.com/items/eel-fat/",
+      "icon": "icons/eel-fat.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_eel_fat.webp"
+    },
+    "Raw Frigid Queenfish Filet": {
+      "url": "https://www.abioticdatabase.com/items/raw-frigid-queenfish-filet/",
+      "icon": "icons/raw-frigid-queenfish-filet.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_filet_icefish_raw.webp"
+    },
+    "Raw Gutfish Eel Filet": {
+      "url": "https://www.abioticdatabase.com/items/raw-gutfish-eel-filet/",
+      "icon": "icons/raw-gutfish-eel-filet.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_fish_filet_eel_raw.webp"
+    },
+    "Occult Distillation": {
+      "url": "https://www.abioticdatabase.com/items/occult-distillation/",
+      "icon": "icons/occult-distillation.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_distillation_occult.webp"
+    },
+    "Purported Grimoire": {
+      "url": "https://www.abioticdatabase.com/items/purported-grimoire/",
+      "icon": "icons/purported-grimoire.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_grimoire.webp"
+    },
+    "Chieftain Skull": {
+      "url": "https://www.abioticdatabase.com/items/chieftain-skull/",
+      "icon": "icons/chieftain-skull.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_chieftainhead.webp"
+    },
+    "Embellished Censer": {
+      "url": "https://www.abioticdatabase.com/items/embellished-censer/",
+      "icon": "icons/embellished-censer.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_witchcenser.webp"
+    },
+    "Flickering Eye": {
+      "url": "https://www.abioticdatabase.com/items/flickering-eye/",
+      "icon": "icons/flickering-eye.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_mageeye.webp"
+    },
+    "Head of a Giant": {
+      "url": "https://www.abioticdatabase.com/items/head-of-a-giant/",
+      "icon": "icons/head-of-a-giant.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_gkheavyskull.webp"
+    },
+    "Mystagogue's Head": {
+      "url": "https://www.abioticdatabase.com/items/mystagogues-head/",
+      "icon": "icons/mystagogues-head.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_mystagogueskull.webp"
+    },
+    "Witch Skull": {
+      "url": "https://www.abioticdatabase.com/items/witch-skull/",
+      "icon": "icons/witch-skull.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_gib_witch_skull.webp"
+    },
+    "Arcane Scrap": {
+      "url": "https://www.abioticdatabase.com/items/arcane-scrap/",
+      "icon": "icons/arcane-scrap.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_scrap_arcane.webp"
+    },
+    "Raw Penumbra Filet": {
+      "url": "https://www.abioticdatabase.com/items/raw-penumbra-filet/",
+      "icon": "icons/raw-penumbra-filet.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_filet_umbrafish_raw.webp"
+    },
+    "Shadowberries": {
+      "url": "https://www.abioticdatabase.com/items/shadowberries/",
+      "icon": "icons/shadowberries.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_shadowberries.webp"
+    },
+    "Unnerving Distillation": {
+      "url": "https://www.abioticdatabase.com/items/unnerving-distillation/",
+      "icon": "icons/unnerving-distillation.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_distillation_unnerving.webp"
+    },
+    "Night Essence": {
+      "url": "https://www.abioticdatabase.com/items/night-essence/",
+      "icon": "icons/night-essence.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_reaper_essence.webp"
+    },
+    "Keresphere": {
+      "url": "https://www.abioticdatabase.com/items/keresphere/",
+      "icon": "icons/keresphere.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_nyxshadefruit.webp"
+    },
+    "Black Oil": {
+      "url": "https://www.abioticdatabase.com/items/black-oil/",
+      "icon": "icons/black-oil.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_oil_black.webp"
+    },
+    "Corrupted Corn": {
+      "url": "https://www.abioticdatabase.com/items/corrupted-corn/",
+      "icon": "icons/corrupted-corn.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_infectedcorn.webp"
+    },
+    "Hexwood": {
+      "url": "https://www.abioticdatabase.com/items/hexwood/",
+      "icon": "icons/hexwood.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_hexedwood.webp"
+    },
+    "Raw Inkfish Filet": {
+      "url": "https://www.abioticdatabase.com/items/raw-inkfish-filet/",
+      "icon": "icons/raw-inkfish-filet.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_filet_reaperfish_raw.webp"
+    },
+    "Expanding Distillation": {
+      "url": "https://www.abioticdatabase.com/items/expanding-distillation/",
+      "icon": "icons/expanding-distillation.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_distillation_expanding.webp"
+    },
+    "Behemoth Skull": {
+      "url": "https://www.abioticdatabase.com/items/behemoth-skull/",
+      "icon": "icons/behemoth-skull.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_behemothskull.webp"
+    },
+    "Tarasque Ichor": {
+      "url": "https://www.abioticdatabase.com/items/tarasque-ichor/",
+      "icon": "icons/tarasque-ichor.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_tarasque_ichor.webp"
+    },
+    "Tarasque Skull": {
+      "url": "https://www.abioticdatabase.com/items/tarasque-skull/",
+      "icon": "icons/tarasque-skull.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_gib_tarasque_skull1.webp"
+    },
+    "Glow Eye": {
+      "url": "https://www.abioticdatabase.com/items/glow-eye/",
+      "icon": "icons/glow-eye.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_gloweye1.webp"
+    },
+    "Raw Darkwater Fish Filet": {
+      "url": "https://www.abioticdatabase.com/items/raw-darkwater-fish-filet/",
+      "icon": "icons/raw-darkwater-fish-filet.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_fish_filet_dw_raw.webp"
+    },
+    "Foggy Distillation": {
+      "url": "https://www.abioticdatabase.com/items/foggy-distillation/",
+      "icon": "icons/foggy-distillation.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_distillation_foggy.webp"
+    },
+    "Organ": {
+      "url": "https://www.abioticdatabase.com/items/organ/",
+      "icon": "icons/organ.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_symphonistorgan.webp"
+    },
+    "Symphonist Head": {
+      "url": "https://www.abioticdatabase.com/items/symphonist-head/",
+      "icon": "icons/symphonist-head.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_symphskull.webp"
+    },
+    "Partial Organ": {
+      "url": "https://www.abioticdatabase.com/items/partial-organ/",
+      "icon": "icons/partial-organ.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_partialorgan.webp"
+    },
+    "Porcelain Shards": {
+      "url": "https://www.abioticdatabase.com/items/porcelain-shards/",
+      "icon": "icons/porcelain-shards.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_porcelainshards.webp"
+    },
+    "Raw Chordfish Filet": {
+      "url": "https://www.abioticdatabase.com/items/raw-chordfish-filet/",
+      "icon": "icons/raw-chordfish-filet.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_filet_fogfish_raw.webp"
+    },
+    "Unstable Distillation": {
+      "url": "https://www.abioticdatabase.com/items/unstable-distillation/",
+      "icon": "icons/unstable-distillation.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_distillation_unstable.webp"
+    },
+    "Plutonic Blood": {
+      "url": "https://www.abioticdatabase.com/items/plutonic-blood/",
+      "icon": "icons/plutonic-blood.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_plutonicblood.webp"
+    },
+    "Volatile Exor Skull": {
+      "url": "https://www.abioticdatabase.com/items/volatile-exor-skull/",
+      "icon": "icons/volatile-exor-skull.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_gib_peccary_skull_volatile.webp"
+    },
+    "Plutonic Carapace": {
+      "url": "https://www.abioticdatabase.com/items/plutonic-carapace/",
+      "icon": "icons/plutonic-carapace.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_carapace_plutonic.webp"
+    },
+    "Raw Silken Betta Filet": {
+      "url": "https://www.abioticdatabase.com/items/raw-silken-betta-filet/",
+      "icon": "icons/raw-silken-betta-filet.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_filet_silkfish_raw.webp"
+    },
+    "Raw Skink Meat": {
+      "url": "https://www.abioticdatabase.com/items/raw-skink-meat/",
+      "icon": "icons/raw-skink-meat.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_gib_meat_skink.webp"
+    },
+    "Void Distillation": {
+      "url": "https://www.abioticdatabase.com/items/void-distillation/",
+      "icon": "icons/void-distillation.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_distillation_void.webp"
+    },
+    "Powdered Crystal": {
+      "url": "https://www.abioticdatabase.com/items/powdered-crystal/",
+      "icon": "icons/powdered-crystal.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_powderedcrystals.webp"
+    },
+    "Anteverse Gem": {
+      "url": "https://www.abioticdatabase.com/items/anteverse-gem/",
+      "icon": "icons/anteverse-gem.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_crystal.webp"
+    },
+    "Bag of Vibrant Feces": {
+      "url": "https://www.abioticdatabase.com/items/bag-of-vibrant-feces/",
+      "icon": "icons/bag-of-vibrant-feces.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_feces_skink.webp"
+    },
+    "Gem Crab": {
+      "url": "https://www.abioticdatabase.com/items/gem-crab/",
+      "icon": "icons/gem-crab.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_mgt_fish_gemcrab.webp"
+    },
+    "Fleshy Distillation": {
+      "url": "https://www.abioticdatabase.com/items/fleshy-distillation/",
+      "icon": "icons/fleshy-distillation.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_distillation_fleshy.webp"
+    },
+    "Lodestone Fragment": {
+      "url": "https://www.abioticdatabase.com/items/lodestone-fragment/",
+      "icon": "icons/lodestone-fragment.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_lodestone_fragment.webp"
+    },
+    "Greyeb": {
+      "url": "https://www.abioticdatabase.com/items/greyeb/",
+      "icon": "icons/greyeb.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_greyebfruit.webp"
+    },
+    "Raw IS-0098 Tentacles": {
+      "url": "https://www.abioticdatabase.com/items/raw-is-0098-tentacles/",
+      "icon": "icons/raw-is-0098-tentacles.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_tentacle98_raw.webp"
+    },
+    "STOLAS Hard Drive": {
+      "url": "https://www.abioticdatabase.com/items/stolas-hard-drive/",
+      "icon": "icons/stolas-hard-drive.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_votv_drive.webp"
+    },
+    "Boiling Distillation": {
+      "url": "https://www.abioticdatabase.com/items/boiling-distillation/",
+      "icon": "icons/boiling-distillation.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_distillation_boiling.webp"
+    },
+    "Royal Pepper": {
+      "url": "https://www.abioticdatabase.com/items/royal-pepper/",
+      "icon": "icons/royal-pepper.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_royalpepper.webp"
+    },
+    "Anteverse Gel": {
+      "url": "https://www.abioticdatabase.com/items/anteverse-gel/",
+      "icon": "icons/anteverse-gel.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_anteverse_gel.webp"
+    },
+    "Corrupted Pepper": {
+      "url": "https://www.abioticdatabase.com/items/corrupted-pepper/",
+      "icon": "icons/corrupted-pepper.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_royalpepper_corrupted.webp"
+    },
+    "Brainy Distillation": {
+      "url": "https://www.abioticdatabase.com/items/brainy-distillation/",
+      "icon": "icons/brainy-distillation.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_distillation_brainy.webp"
+    },
+    "Yeti Skull": {
+      "url": "https://www.abioticdatabase.com/items/yeti-skull/",
+      "icon": "icons/yeti-skull.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_yeti_skull.webp"
+    },
+    "Human Brain": {
+      "url": "https://www.abioticdatabase.com/items/human-brain/",
+      "icon": "icons/human-brain.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_humanbrain.webp"
+    },
+    "Sniper Skull": {
+      "url": "https://www.abioticdatabase.com/items/sniper-skull/",
+      "icon": "icons/sniper-skull.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_sniperskull3.webp"
+    },
+    "Mycological Distillation": {
+      "url": "https://www.abioticdatabase.com/items/mycological-distillation/",
+      "icon": "icons/mycological-distillation.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_distillation_mycological.webp"
+    },
+    "Mushroom Peccary Skull": {
+      "url": "https://www.abioticdatabase.com/items/mushroom-peccary-skull/",
+      "icon": "icons/mushroom-peccary-skull.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_gib_peccary_skull_mush.webp"
+    },
+    "Carbuncle Mushroom": {
+      "url": "https://www.abioticdatabase.com/items/carbuncle-mushroom/",
+      "icon": "icons/carbuncle-mushroom.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_food_mushroom.webp"
+    },
+    "Endothermic Distillation": {
+      "url": "https://www.abioticdatabase.com/items/endothermic-distillation/",
+      "icon": "icons/endothermic-distillation.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_distillation_endothermic.webp"
+    },
+    "Frozen Essence": {
+      "url": "https://www.abioticdatabase.com/items/frozen-essence/",
+      "icon": "icons/frozen-essence.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_essence_frozen.webp"
+    },
+    "Snow Peccary Skull": {
+      "url": "https://www.abioticdatabase.com/items/snow-peccary-skull/",
+      "icon": "icons/snow-peccary-skull.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_gib_peccary_skull_furry.webp"
+    },
+    "Vial of Milk": {
+      "url": "https://www.abioticdatabase.com/items/vial-of-milk/",
+      "icon": "icons/vial-of-milk.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_distillation_milk.webp"
+    },
+    "Milk Sac": {
+      "url": "https://www.abioticdatabase.com/items/milk-sac/",
+      "icon": "icons/milk-sac.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_food_anteverse_milksac.webp"
+    },
+    "Restorative Flask": {
+      "url": "https://www.abioticdatabase.com/items/restorative-flask/",
+      "icon": "icons/restorative-flask.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_throwableflask_restorative.webp"
+    },
+    "Concussive Flask": {
+      "url": "https://www.abioticdatabase.com/items/concussive-flask/",
+      "icon": "icons/concussive-flask.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_throwableflask_concussive.webp"
+    },
+    "Charging Flask": {
+      "url": "https://www.abioticdatabase.com/items/charging-flask/",
+      "icon": "icons/charging-flask.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_throwableflask_charging.webp"
+    },
+    "\"Holy\" Flask": {
+      "url": "https://www.abioticdatabase.com/items/holy-flask/",
+      "icon": "icons/holy-flask.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_throwableflask_holy.webp"
+    },
+    "Panic Flask": {
+      "url": "https://www.abioticdatabase.com/items/panic-flask/",
+      "icon": "icons/panic-flask.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_throwableflask_panic.webp"
+    },
+    "Portal Flask": {
+      "url": "https://www.abioticdatabase.com/items/portal-flask/",
+      "icon": "icons/portal-flask.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_throwableflask_portal.webp"
+    },
+    "Megaton Flask": {
+      "url": "https://www.abioticdatabase.com/items/megaton-flask/",
+      "icon": "icons/megaton-flask.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_throwableflask_megaton.webp"
+    },
+    "Pheromone Flask": {
+      "url": "https://www.abioticdatabase.com/items/pheromone-flask/",
+      "icon": "icons/pheromone-flask.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_throwableflask_pheromone.webp"
+    },
+    "Updraft Flask": {
+      "url": "https://www.abioticdatabase.com/items/updraft-flask/",
+      "icon": "icons/updraft-flask.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_throwableflask_updraft.webp"
+    },
+    "Blizzard Flask": {
+      "url": "https://www.abioticdatabase.com/items/blizzard-flask/",
+      "icon": "icons/blizzard-flask.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_throwableflask_blizzard.webp"
+    },
+    "Corrosive Flask": {
+      "url": "https://www.abioticdatabase.com/items/corrosive-flask/",
+      "icon": "icons/corrosive-flask.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_throwableflask_corrosive.webp"
+    },
+    "Electrifying Tincture": {
+      "url": "https://www.abioticdatabase.com/items/electrifying-tincture/",
+      "icon": "icons/electrifying-tincture.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_tincture_electrifying1.webp"
+    },
+    "Reinforcing Tincture": {
+      "url": "https://www.abioticdatabase.com/items/reinforcing-tincture/",
+      "icon": "icons/reinforcing-tincture.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_tincture_reinforcing1.webp"
+    },
+    "Berserker Tincture": {
+      "url": "https://www.abioticdatabase.com/items/berserker-tincture/",
+      "icon": "icons/berserker-tincture.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_tincture_berserk1.webp"
+    },
+    "Antiheat Tincture": {
+      "url": "https://www.abioticdatabase.com/items/antiheat-tincture/",
+      "icon": "icons/antiheat-tincture.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_tincture_antiheat1.webp"
+    },
+    "Curative Tincture": {
+      "url": "https://www.abioticdatabase.com/items/curative-tincture/",
+      "icon": "icons/curative-tincture.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_tincture_curative1.webp"
+    },
+    "Giganto Tincture": {
+      "url": "https://www.abioticdatabase.com/items/giganto-tincture/",
+      "icon": "icons/giganto-tincture.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_tincture_giganto1.webp"
+    },
+    "Speedy Tincture": {
+      "url": "https://www.abioticdatabase.com/items/speedy-tincture/",
+      "icon": "icons/speedy-tincture.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_tincture_speedy1.webp"
+    },
+    "Restorative Tincture": {
+      "url": "https://www.abioticdatabase.com/items/restorative-tincture/",
+      "icon": "icons/restorative-tincture.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_tincture_healing1.webp"
+    },
+    "Phasing Tincture": {
+      "url": "https://www.abioticdatabase.com/items/phasing-tincture/",
+      "icon": "icons/phasing-tincture.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_tincture_phasing1.webp"
+    },
+    "Brainpower Tincture": {
+      "url": "https://www.abioticdatabase.com/items/brainpower-tincture/",
+      "icon": "icons/brainpower-tincture.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_tincture_brainpower1.webp"
+    },
+    "\"Holy\" Coating": {
+      "url": "https://www.abioticdatabase.com/items/holy-coating/",
+      "icon": "icons/holy-coating.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_flaskcoating_holy.webp"
+    },
+    "Reforge Coating": {
+      "url": "https://www.abioticdatabase.com/items/reforge-coating/",
+      "icon": "icons/reforge-coating.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_coating_reforge.webp"
+    },
+    "Electromagnetic Coating": {
+      "url": "https://www.abioticdatabase.com/items/electromagnetic-coating/",
+      "icon": "icons/electromagnetic-coating.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_flaskcoating_electromagnetic.webp"
+    },
+    "Thermal Coating": {
+      "url": "https://www.abioticdatabase.com/items/thermal-coating/",
+      "icon": "icons/thermal-coating.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_flaskcoating_thermal.webp"
+    },
+    "Bounce Coating": {
+      "url": "https://www.abioticdatabase.com/items/bounce-coating/",
+      "icon": "icons/bounce-coating.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_flaskcoating_bounce.webp"
+    },
+    "Somnivorous Coating": {
+      "url": "https://www.abioticdatabase.com/items/somnivorous-coating/",
+      "icon": "icons/somnivorous-coating.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_flaskcoating_somnivorous.webp"
+    },
+    "Acid Coating": {
+      "url": "https://www.abioticdatabase.com/items/acid-coating/",
+      "icon": "icons/acid-coating.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_flaskcoating_acid.webp"
+    },
+    "Disruptor Coating": {
+      "url": "https://www.abioticdatabase.com/items/disruptor-coating/",
+      "icon": "icons/disruptor-coating.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_flaskcoating_disruptor.webp"
+    },
+    "Quantum Coating": {
+      "url": "https://www.abioticdatabase.com/items/quantum-coating/",
+      "icon": "icons/quantum-coating.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_flaskcoating_quantum.webp"
+    },
+    "Foggy Coating": {
+      "url": "https://www.abioticdatabase.com/items/foggy-coating/",
+      "icon": "icons/foggy-coating.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_flaskcoating_foggy.webp"
+    },
+    "Unstable Flask": {
+      "url": "https://www.abioticdatabase.com/items/unstable-flask/",
+      "icon": "icons/unstable-flask.webp",
+      "iconSource": "https://www.abioticdatabase.com/img/itemicon_throwableflask_unstable.webp"
+    }
+  }
+}
