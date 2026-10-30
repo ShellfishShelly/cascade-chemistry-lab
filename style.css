@@ -4,3 +4,12 @@
 .shopping{margin-top:0;margin-bottom:20px}.source small{font-size:10px}@media(max-width:700px){.source{width:100%;padding:10px 12px}.source .sname{font-size:13px}.source small{font-size:11px}.source img{width:36px;height:36px}.source b{font-size:19px}.intro{padding-bottom:18px}.intro p{font-size:13px}.notice{margin-bottom:20px}}
 
 .site-switcher{position:relative;flex-shrink:0}.site-switcher summary{cursor:pointer;list-style:none}.site-switcher summary::-webkit-details-marker{display:none}.site-switcher summary:focus-visible{outline:2px solid currentColor;outline-offset:6px}.site-switcher nav{position:absolute;top:calc(100% + 16px);left:0;z-index:1000;min-width:250px;background:#f7f4e8;color:#25382d;border:1px solid #9da68f;border-radius:8px;padding:8px;box-shadow:0 12px 28px #0004}.site-switcher nav a{display:block;padding:12px;color:inherit;text-decoration:none;border-radius:4px;font-size:14px;white-space:nowrap}.site-switcher nav a:hover,.site-switcher nav a:focus-visible{background:#dce3cc}
+
+/* Distillation disclosures retain the existing card layout. */
+details.distcard{padding:0;margin:0;border:1px solid var(--line)}
+summary.disthead{list-style:none;color:var(--ink);cursor:pointer;user-select:none}
+summary.disthead::-webkit-details-marker{display:none}
+summary.disthead:hover{background:#25372f}
+.distcard:not([open]) .disthead{border-bottom:0}
+.distchevron{font-size:18px;color:var(--muted);transform:rotate(-90deg);transition:transform .15s}
+.distcard[open] .distchevron{transform:rotate(0)}
